@@ -1,0 +1,20 @@
+name: TabCargos
+version: 1.0.0
+main: com.tabcargos.plugin.TabCargos
+api-version: '1.21'
+description: Sistema de cargos no TAB para PaperMC 1.21.1
+author: TabCargos
+
+commands:
+  cargo:
+    description: Gerencia os cargos dos jogadores
+    usage: /cargo <subcommando>
+    permission: tabcargos.admin
+
+permissions:
+  tabcargos.admin:
+    description: Permissão para gerenciar cargos
+    default: op
+  tabcargos.use:
+    description: Permissão para ver cargos no TAB
+    default: true

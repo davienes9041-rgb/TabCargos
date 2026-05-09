@@ -1,0 +1,34 @@
+# =============================================
+# TabCargos - Configuracao
+# =============================================
+
+# Formato do TAB: {cargo} {nome}
+# Variaveis: {cargo}, {nome}, {prefixo}, {sufixo}
+formato-tab: "{cargo} &f{nome}"
+
+# Cargo padrao para novos jogadores
+cargo-padrao: "Membro"
+
+# Lista de cargos pre-definidos
+# Use codigos de cor do Minecraft (&a, &b, &c...)
+cargos:
+  Membro:
+    prefixo: "&7[Membro]"
+    cor-nome: "&f"
+    prioridade: 100
+  VIP:
+    prefixo: "&a[VIP]"
+    cor-nome: "&a"
+    prioridade: 90
+  Moderador:
+    prefixo: "&9[MOD]"
+    cor-nome: "&9"
+    prioridade: 50
+  Admin:
+    prefixo: "&c[ADMIN]"
+    cor-nome: "&c"
+    prioridade: 10
+  Dono:
+    prefixo: "&6[DONO]"
+    cor-nome: "&6"
+    prioridade: 1
